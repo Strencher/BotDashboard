@@ -1,0 +1,21 @@
+@use "./colors.scss" as *;
+
+.scroller {
+   overflow-y: scroll;
+   height: calc(100% - 13.3%);
+   position: absolute;
+}
+
+* {
+   scroll-behavior: smooth;
+
+   ::-webkit-scrollbar {
+      background: transparent;
+      width: 8px;
+   }
+
+   ::-webkit-scrollbar-thumb {
+      background: $lvl10;
+      border-radius: 10px;
+   }
+}

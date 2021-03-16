@@ -1,0 +1,23 @@
+@use "./colors.scss" as *;
+
+.buttonNormal {
+   border: none;
+   padding: 10px;
+   border-radius: 4px;
+   cursor: pointer;
+   background: #00b548;
+   transition: filter .3s;
+}
+
+.buttonNormal:hover {
+   filter: brightness(1.2);
+}
+
+.buttonRed {
+   background: $red;
+}
+
+.copyPlan {
+   float: right;
+   margin-right: 10px;
+}

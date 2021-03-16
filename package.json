@@ -1,0 +1,29 @@
+{
+  "name": "botdashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack",
+    "watch": "npx webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sucrase/webpack-loader": "^2.0.0",
+    "css-loader": "^5.1.1",
+    "lodash": "^4.17.21",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-sortablejs": "^6.0.0",
+    "react-tooltip": "^4.2.15",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "sortablejs": "^1.13.0",
+    "webpack": "^5.24.3"
+  },
+  "devDependencies": {
+    "svg-inline-loader": "^0.8.2",
+    "webpack-cli": "^4.5.0"
+  }
+}

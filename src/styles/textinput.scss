@@ -1,0 +1,16 @@
+@use "./colors.scss" as *;
+
+.textInput {
+   padding: 7px;
+   background: $lvl3;
+   border: 1px solid black;
+   border-radius: 3px;
+   color: $text;
+   transition: border-color .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+}
+
+.textInput:focus {
+   outline: none;
+   border-color: $lvl10;
+   box-shadow: 0 0 5px $lvl9;
+}
