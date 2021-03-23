@@ -24,7 +24,7 @@ export default class App extends React.PureComponent {
    setList = list => {
       list = list.map(e => ({
          title: e.title,
-         value: e.title
+         value: e.value
       }));
 
       localStorage.setItem('items', JSON.stringify(list, null, 4));
